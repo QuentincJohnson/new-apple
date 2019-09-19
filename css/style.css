@@ -2,9 +2,28 @@
 {
     background-color: black;
     color: white;
+    border-width: 0 0 0.1rem 0;
+    border-style: solid; 
+    border-color: gray;
 }
 
 .head-logos
 {
     display: inline-block;
+}
+
+.logo-lines
+{
+    width: 1rem;
+    border-width: 0.1rem 0 0.1rem 0;
+    border-style: solid; 
+    border-color:white;
+    padding:0.2rem;
+}
+.spacing
+{
+    display: inline-block;
+    width: 12rem;
+    padding: 1rem;
+
 }
