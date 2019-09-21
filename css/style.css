@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
 body
 {
-
     font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
 }
 .menu-top
 {
@@ -49,6 +47,7 @@ body
 
 .content-li-section
 {
+    font-weight: lighter;
     background-color: black;
     color:white;
     padding: 1rem 1rem;
@@ -57,10 +56,39 @@ body
 .content-li
 {
     margin: 0 2rem;
-    
     margin-bottom: 0.5rem;
     padding:0.5rem;
     border-bottom: 0.07rem solid grey;
-    
+}
 
+.iphone-pro
+{
+    text-align: center; 
+    background-image: url(/img/iphone11pro.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    color: white;
+    height: 60vh;
+}
+
+.iphone-11
+{
+    text-align: center; 
+    background-image: url(/img/iphone11.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    color:black;
+    height: 60vh;
+}
+
+.watch
+{ 
+    background-image: url(/img/applewatch.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 105rem;
+    color:black;
+    height: 60vh;
 }
