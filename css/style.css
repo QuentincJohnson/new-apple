@@ -34,14 +34,18 @@ body
 }
 
 .search-bar
-{
+{ 
+    display: block;
+    margin: 0.7rem auto;
     background-image: url(../img/search.svg);
     background-color: dimgrey;
     background-repeat: no-repeat;
-    background-position: 0rem -0.8rem;
-    margin: 0.7rem;
+    background-position: 0.2rem -0.75rem;
+    color: white;
     width: 28.5;    
     padding-left: 1.06rem;
+    border: 1px solid grey;
+    border-radius: 0.2rem;
 }
 
 .content-li-section
@@ -68,7 +72,7 @@ body
     background-repeat: no-repeat;
     background-size: 100rem;
     color: white;
-    height: 60vh;
+    height: 65vh;
 }
 
 .iphone-11
@@ -79,7 +83,7 @@ body
     background-repeat: no-repeat;
     background-size: 100rem;
     color:black;
-    height: 60vh;
+    height: 57vh;
 }
 
 .watch
@@ -89,7 +93,7 @@ body
     background-repeat: no-repeat;
     background-size: 105rem;
     color:black;
-    height: 60vh;
+    height: 65vh;
 }
 
 .watch-logo
@@ -106,7 +110,7 @@ body
 {
     font-size: 2rem;
     font-weight: bold;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .description
@@ -146,6 +150,6 @@ body
 
 .contain
 {
-    max-width: 40rem;
-    margin: auto;
+    max-width: 30.313rem;
+    margin: 0 auto;
 }
